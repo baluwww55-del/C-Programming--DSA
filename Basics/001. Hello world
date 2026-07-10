@@ -1,1 +1,20 @@
+// C Programming :
+// From this file we are going to learn about c programming language . 
+// C is a procedural programming language that was developed in the early 1970s by dennis ritchie at bell labs.
+// C is a mother of all language it is the first language in computer science .
+// this is the simple program to print hello world in c programming language .
 
+#include<stdio.h>
+int main()
+{
+  printf("Hello,world!");
+  return 0;
+}
+ 
+// so this is the simple hello world program in c programming language. 
+// this folder will be useful for the beginners who are preparing to learn c  programming language for exams like gate end sem exams etc. 
+// this will be the beginner friendly folder each and small concepts will be explained through the code and clear definition .
+
+// so this is the simple hello world program in c programming language. 
+// this folder will be useful for the beginners who are preparing to learn c  programming language for exams like gate end sem exams etc. 
+// this will be the beginner friendly folder each and small concepts will be explained through the code and clear definition .
