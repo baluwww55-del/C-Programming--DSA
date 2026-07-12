@@ -1,0 +1,33 @@
+// in this we are going to learn about the intro of c how it came and how it is useful in programming .
+// C is a known as procedural progeramming language which was devloped by dennis ritchie in the early 1970s.
+// memory has primary memory and secondary memory 
+// and we have register which are used to store the data and instructions .
+// we come to concepts.
+
+// 1. what is c programming language ?
+// c is a compile based procedural programming language which is used to develop the software and all those stuffs.
+
+// 2. what is compiler ?
+// compiler is a program / bridge which is used to convert the high level language into low leverl language.
+
+// 3. what is high level language ?
+// high level language is a programming language which is used to develop the software and its applications.
+
+// 4. what is low level language ?
+// low level language is programming lannguage which is undertsood by the computer or machines 
+
+// 5. what is procedural programming language ?
+// procedural programming language is a programming language which is used to develop the software and its applications in a step by step approach.
+
+// the flow of a c programming language :
+// 1) data types, keywords, identifiers , and operators
+// 2) Branching statements.
+// 3) pointers, arrays and 2d arrays .
+// 4) structure union and enum
+// 5) storage classes and activation records .
+// 6) recursion .
+// 7) strings and its libraby function of a strings.
+// 8) dynamic memory allocations . 
+// 9) double pointers .
+
+// this will be the work flow of the c programming language after that we will start dsa . 
