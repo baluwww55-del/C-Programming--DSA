@@ -3,7 +3,7 @@
 // C is a procedural programming language that was developed in the early 1970s by dennis ritchie at bell labs.
 // C is a mother of all language it is the first language in computer science .
 // this is the simple program to print hello world in c programming language .
-
+ 
 #include<stdio.h>
 int main()
 {
