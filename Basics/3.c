@@ -1,0 +1,44 @@
+// keywords , identifiers and operators in c programming language .
+//Keywords : are the dictionary words which have predefined meaning and usage 
+// identifiers : are the names which we give to oru variables , functions , pointers and arrays etc.
+// operators : are the symbols which are used to perform the operation on the variables in c programming language .
+// keywords  in c programming language are 32 in number and they are as follows:
+// int keywords : auto , break , case , char , const , continue , default , do , double , else , enum , extern , float , for , goto , if , inline , int , long , register , restrict , return , short , signed , sizeof , static , struct , switch , typedef , union , unsigned , void, volatile, while.
+
+// operators in c programming language are 44 in number and they are as follows:
+// 1) Arithmetic operators : + , - , * , / , % , ++ , --
+// 2) Relational operators : == , != , > , < , >= , <=  
+// 3) Logical operators : && , || , !   
+// 4) Bitwise operators : & , | , ^ , ~ , << , >>
+// these are the simple operators in c programming language which are used to perform the operations .
+
+// function in c programming language :
+
+// major functions are input and output function which are used to take the input from the user .
+// input function :
+
+// declaration :
+
+// { 
+// int i;
+// scanf("%d",&i);
+// }
+
+// output function :
+/// declaration :
+//{
+// printf("%d",i);
+// }
+
+// simple program to take input from the user and print output name :
+#include<stdio.h>
+int main()
+{
+  int i;
+  printf("enter the number::");
+  scanf("%d", &i);
+  printf("the number is: %d",i);
+  return 0;
+
+}
+// so this is the simple program to take the input from the user and print the output in c programming language .
