@@ -44,8 +44,6 @@ int main()
 
 // 3. if else if statement :
 // this statement check multiple conditions and gives the output based on conditions :
-
-
 // eg program :
 
 /*
@@ -70,6 +68,8 @@ int main()
     return 0;
 }
 /*
+
+
 
 // 4. we have nested if statements :
 /*
@@ -100,10 +100,11 @@ int main()
 /*
 
 
+
+
 // 5. switch statement :
 
 /*
-
 #include<stdio.h>
 int main()
 {
@@ -130,5 +131,6 @@ int main()
         default: printf("failed");
     }
 }
+// so this is the simple program in c language using switch statement in branching statements :
 /*
 // so this is the simple program using switch statements in c programming language :
