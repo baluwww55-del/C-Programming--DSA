@@ -1,0 +1,134 @@
+// Branching statements in c programming language : known as the statements which based on conditions it gives outputs .
+// if statements :
+// execute the code if statement is true 
+// simple code for the if statement 
+/*
+#include<stdio.h>
+int main()
+{
+    int i;
+    printf("enter the number:");
+    scanf("%d", &i);
+    if(i<0)
+    {
+      printf("it is a negative number");
+    }
+      printf("hi good morning :");
+      return 0;
+}
+// so this is the simple code for the if statement in c programming language .
+/*
+
+
+// 2. if else statement :
+// condition checks if statements is true if block condition will run 
+// if block is not correct means else block will run.
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number:");
+    scanf("%d", &a);
+    if(a<100)
+    {
+        printf("it is the number below hundred:");
+    }
+    else
+    {
+        printf("it is the number not below 100:");
+    }
+    return  0;
+}
+// this is the simple code for the if else statement in c programming language .
+/*
+
+// 3. if else if statement :
+// this statement check multiple conditions and gives the output based on conditions :
+
+
+// eg program :
+
+/*
+#include<stdio.h>
+int main()
+{
+    float marks;
+    printf("enter the marks :");
+    scanf("%f", &marks);
+    if(marks>90)
+    {
+        printf("congratulations! u have passed in first class:");
+    }
+    else if (marks>60)
+    {
+        printf("congratulations! u have passed in second class, keep trying:");
+    }
+    else
+    {
+        printf("oops! u have not passed the exam. better luck  next time:");
+    }
+    return 0;
+}
+/*
+
+// 4. we have nested if statements :
+/*
+#include<stdio.h>
+int main()
+{
+    float marks;
+    printf("enter the marks:");
+    scanf("%f", &marks);
+    if(marks>=35)
+    {
+        if(marks>=90)
+        {
+            printf("excellent!");
+        }
+        else
+        {
+            printf("u just passed :");
+        }
+    }
+    else
+        {
+            printf("you failed buddy1");
+        }
+        return 0;
+}
+// this is the simple code for nested if else statements :
+/*
+
+
+// 5. switch statement :
+
+/*
+
+#include<stdio.h>
+int main()
+{
+    int cgpa;
+    printf("enter the cgpa:");
+    scanf("%d", &cgpa);
+    switch(cgpa)
+    {
+        case 10: printf("a+: excellent ure the topper keep ahead:");
+        break;
+        
+        case 9: printf("a: very good score keep pushing:");
+        break;
+        
+        case 8: printf("b+: ure going good do more hardwork to get more marks:");
+        break;
+        
+        case 7: printf("b: u did better still has to improve a lot:");
+        break;
+        
+        case 6: printf("c: u have to do better in next examination:");
+        break;
+        
+        default: printf("failed");
+    }
+}
+/*
+// so this is the simple program using switch statements in c programming language :
