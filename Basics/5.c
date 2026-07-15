@@ -1,0 +1,58 @@
+// Looping statements in c programming language :
+// we have three loops in c programming language they are as follows :
+// 1. while loop :
+// 2. for loop :
+// 3. do while loop :
+
+// 1. what is while loop?
+// ans. while loop is a looping statement which checks each and every condition and if the condition is true it will execute .
+// simple code for while loop to print 1 to 10 numbers :
+/*
+#include<stdio.h>
+int main()
+{
+    int i = 0;
+    while(i<10)
+    {
+        printf("%d\n",i);
+        i++;
+    }
+    return 0;
+}*/
+// this is the simple code for while loop to print 1 to 10 numbers in c programming language .
+
+// 2. what is for loop?
+// for loop is teh looping staement in c programming language which is used to execute the code for a specific range.
+// simple code for loop to print 1 to 10 numbers :
+/*
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=0;i<10;i++)
+    {
+        printf("%d\n",i);
+    }
+    return 0;
+}/*
+
+// this is the simple code for loop to print 1 to 10 numbers in c programming language :
+
+
+
+// 3. what is do while loop?
+// do while loop is the looping statement i c programming run the code untill the some condition is true.
+// simple example program for do while loop to print 1 to 10 numbers :
+#include<stdio.h>
+int main()
+{
+    int i=0;
+    do
+    {
+        printf("%d\n",i);
+        i++;
+    }
+    while(i<10);
+    return 0;
+}
+// so this is the simple code for do while loop in c programming language to print 1 to 10 numbers using do while loop .
