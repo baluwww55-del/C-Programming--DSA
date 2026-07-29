@@ -56,4 +56,7 @@ int main()
     }
     return 0;
 }
-// this is the simple code for 2d arrays  . 
+// this is the simple code for 2d arrays  .
+// 2d arrays also called as rows into columns arrays 
+// these are the some important points of arrays 
+
