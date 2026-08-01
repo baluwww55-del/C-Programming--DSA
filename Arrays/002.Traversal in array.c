@@ -11,8 +11,8 @@ for(i=lb; i<=ub;i++)
 {
 visit[i];
 }
-runtime complexity will be O(n) where n is the number of elements in an array.
-space complexity will be O(1) becasue we are not using any extra space for traversing an array.
+runtime complexity will be theta(n) where n is the number of elements in an array.
+space complexity will be theta(1) becasue we are not using any extra space for traversing an array.
 there is no extra space ryt because we are using array . array = fixed size in data structure so the space complexity will be O(1).
 
 /**/
