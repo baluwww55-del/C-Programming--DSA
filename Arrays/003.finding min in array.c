@@ -3,10 +3,10 @@
 // for this we have to compare each element with the next element we have to do traversing for tht :
 
 
-// for(i=lb;i<=ub;i++)
-//      {
-//         visit[i];
-//      }
+ for(i=lb;i<=ub;i++)
+      {
+        visit[i];
+      }
 // visiting each element of an array is called traversing in an array. 
 
 // this is the step we have to take for array to do traverse of each element 
@@ -16,7 +16,6 @@
 
 
 
-/**
 // eg array = [18,9,2,3,4,5,1]
 min = a[lb];
 for(i=lb+1;i<=ub;i++)
@@ -27,7 +26,6 @@ if( a[i]<min)
 }
 return min;
 }
-/**/
 
 // this is the algorithm to find the minimum value in an array using c programming language :
 // the time complexity of this is n-1 steps to solve the array means to find the minimum value 
