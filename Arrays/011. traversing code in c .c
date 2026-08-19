@@ -1,6 +1,6 @@
 // Traversing code in c 
 // eg:
-/*#include<stdio.h>
+#include<stdio.h>
 int main()
 {
     int a[5] = {1,2,3,4,5};
@@ -11,7 +11,7 @@ int main()
     return 0;
 }
 // basic code in arrays :
-/**/ 
+
 #include<stdio.h>
 void main()
 {
