@@ -27,7 +27,8 @@ for(i=lb+1;i<=ub;i++)     // for to compare the loop we are taking lb+1 to ub fo
 /**
 
  // time  complexity will be theta (n) because it is taking linearly ryt i++ from lb to ub thats y linear time complexity.
- // space complexity will be theta(1) because we are  not using any extra space for to find the maximum of an array. 
+ // space complexity will be theta(1) because we are  not using any extra space for to find the maximum of an array.
+// this is the  algorithm technique used to find the maximun of element in an array . 
 
 
 // this is the simple example to find the minimum and maximum of an algorithms using c programming language :
