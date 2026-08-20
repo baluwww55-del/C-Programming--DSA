@@ -63,3 +63,44 @@ int main()
 }
 
 //  this is the code of minimum of an array using c programming language .
+#include<stdio.h>
+int main()
+{
+    int a[100];
+    int n;
+    printf("enter the array elements :");
+    scanf("%d", &n);
+    printf("entered %d elements \n", n);
+    
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+    
+    printf("the array elements are :");
+    
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d\n", a[i]);
+    }
+    int max = a[0];
+    for (int i = 0; i < n; i++)
+        if (a[i]>max) 
+        {
+            max = a[i];
+        }
+        printf("the maximum of an array element is %d\n", max);
+    int min = a[0];
+    for (int i = 0; i < n; i++)
+        if (a[i]<min)
+        {
+            min = a[i];
+        }
+        printf("the minimum element of an array is %d", min);
+        return 0;
+        
+    
+}
+
+// the run time complexity of the three code is O(n).
+// and the space time complexity is O(1).
