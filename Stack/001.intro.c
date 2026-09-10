@@ -17,15 +17,15 @@
 // deletion in stack is known as pop operation . 
 
 // push algorithm : using stack implementation using an array :
-push (stack[], top, item)
+push (stack[], top, item)     // for the push algorithm insertion in stack we use top index to push first we assigned the stack array and we assigned index to insert and we took a item to insert )
 {
-    if (top == n-1)
+    if (top == n-1)         // we are giving the condition to overflow condition using if else condition if the condition reaches tht the loop will not run to the becomes overflow .
     {
         printf("overflow");
         return ;
 
-        top++;
-        stack[top]=item;
+        top++;                   // we know that after inserting the elemnt in an stack we get array ub ++ 
+        stack[top]=item;         // this is the step where our element got inserted . 
 
     }
 }
@@ -35,14 +35,14 @@ push (stack[], top, item)
 
 
 // pop algorithm: using stack implementation using an array :
-pop (stack ,top[])
+pop (stack ,top[])                  // as we know that the pop operation is elementing the element from an array for that we need to get to know top we assign and top 
 {
-    if (top == -1)
+    if (top == -1)                // we are giving the condition if the top == -1 show it is an underflow condition 
     {
         printf("underflow");
         return ;
-        item = stack[top];
-        top--;
+        item = stack[top];       // if condition not satisfied it overcomes the loop and deletes / pops the top element .
+        top--;                   // after pop operation done ub -- decreases  and elements also decreases .
     }
 }
 // run time complexity of the pop algorithm using implementation an array in stack is O(1).
