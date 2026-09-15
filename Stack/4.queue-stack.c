@@ -1,0 +1,12 @@
+// Queue using stack :
+// queue is a linear data structure which works on the principle of fifo (first in first out).
+// stack is also a linear data structure which works on the principle of  lifo (last in first out).
+
+// when we have to perform a queue operation in an stack it has some steps :
+// 1) we have to take a two queue because as we know tht stack follows the operations of front and rear happens in one position only 
+// 2) s1 and s2 are the two queues . 
+// 3) push elements on the s1 . 
+// 4) if s2 is empty . then pop from tht this is the dequeue operation . 
+// 5) if s2 is empty then bring all the elements . from s1 to s2 and pop from s2 . 
+
+// so this is the operation using queue in stack . 
