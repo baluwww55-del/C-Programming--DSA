@@ -1,0 +1,46 @@
+// Binary tree :
+// binary tree is different from general tree which have some specific rules to follow while we making the tree :
+
+// characteristics of binary tree :
+// 1) binary tree consists of two children for one parent. 
+// 2) child may be 0, or 2 not more than that . 
+// 3) Binary tree consists of two childs known as left child and right child . 
+// 4) binary tree if there is a leaf node to internal node it converts to -1+2 
+// 5) which concludes the assumption of +1 when the leaf node converted to internal node 
+
+// structure of tree :
+struct bt node
+{
+    char key;
+    struct bt node *lchild;
+    struct bt node *rchild;
+}
+// this is the basic structure of tree 
+
+// representation :
+                            -------a --------
+                          |                   |
+                        --b-x              -- c --
+                        |                  |     |
+                      x-d-x              x-e-x x-f-x
+// so this is the basic structure of tree representation :
+
+// how to detect a leaf node :
+// 1) to detect a leaf node node contains null on left and right . 
+// condition for the nulll node :
+if((t-->lchild == null) (t-->rchild == null))
+{
+    printf("t points to a leaf node");
+    return ;
+}
+
+// so this is the basic explanation of binary tree :
+
+// we have another concept in tree known as handshaking lemma 
+// 1) it is only for I2 like internals node has to be two childrens . 
+// effectively happen  -2+1 and ir rskes +1 leaf node when we increase internal node . 
+// when we make leaf node to internal and effectively increase +2 leaf node 
+// l = I2+1
+// *) leaf node constant for I1 and effectively happens for I2 only means only for internal node consists of two childrens . 
+
+// so this is the basic explanation of handshaking lemma , binary tree and its representation . 
