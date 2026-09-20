@@ -1,0 +1,37 @@
+// construction using tree traversal :
+
+// 1) tree traversal for a general tree :
+// *) first we have to use dot method like by using that we can find the tree traversal and we have to identify tht preorder or post order . 
+// *) In-order incase of inorder it is slightly tough we have to follow the question . 
+// *) if in case of converse we have to use convention of tree traversal . 
+
+// Tree conventions :
+// *) pre-order convention gives postorder 
+// *) inorder convention gives inorder 
+// *) post-order convention gives preorder 
+
+// *) these are the rules which we have to follow while constructing the tree 
+
+// construction using binary tree for traversal . 
+// *) rules :
+// 1) minimum 2 traversal required . 
+// 2) one should be inorder traversal . 
+// eg : preorder inorder :
+// eg : postorcer inorder :
+
+// preorder and postorder used to find the root 
+// inorder is to find the left and right child 
+// 1) in preorder the  root will be at first .
+// 2) in inoroder the root will be at middle .
+// 3) in postorder the root will be at ending . 
+
+// these are the rules we have to follow and these are the shorttricks . 
+
+// construction using tree converse traversal for binary tree :
+// 1) first take reverse (if we see any converse name means first we have to take reverse means we have to use convention).
+// 2) after taking the convention we have to construct using tree traversal preorder inorder and postorder method .
+
+// unique tree method :
+// 1) for practice session we have to use unique method to understand how the tree is going to construct . 
+
+// these are the tree construction methods using general tree, binary tree and using converse method . 
