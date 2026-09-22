@@ -1,0 +1,71 @@
+// 2d arrays :
+// 2d arrays is also a similar type of arrays which is used to represent the two arrays once in an time . 
+
+// 2d array declaration :
+datatype name[size1][size2];
+// size 1 = represent the no of arrays . 
+// size 2 = reprsent the no of elements in each arrays . 
+// we call the first array as row and second array as column like no of arrays and no of columns . 
+
+/// eg:
+int b[4][7];  
+// four arrays created and each consists of seven elements . 
+
+// simple program of 2d arrays :
+#include<stdio.h>
+void main()
+{
+    int i,j;
+    for(i=0;i<4;i++)
+    {
+        for(j=0;i<7;j++)
+        {
+            scanf("%d"&b[i],[j]);
+        }
+    }
+}
+// this is the simple programming example of 2d arrays . 
+
+
+// 2d array initilization :
+int a[3][4];
+int {[1,2,3,4],[5,6,7,8],[9,10,11,12]}
+// sp this is the initilization of an array which is three arrays created and each consists of four elements . 
+
+// simple program :
+#include<stdio.h>
+int main()
+{
+    int a[3][4];
+    for (i=0;i<3;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+            printf("%d", a[i][j]);
+        }
+        printf("/n");
+    }
+}
+// so this is the simple example program of 2d array . 
+
+
+// there are majorly two storage schemes in an 2d arrays :
+// 1) row major storage scheme . 
+// 2) column major storage scheme . 
+
+// 1) row major storage scheme . 
+// stores the elements first . 
+// like 00 01 02 03 
+//      10 11 12 13
+//      20 21 22 23
+// this is the example of row major order . 
+
+// 2) column major order . 
+// stores the column first . 
+// like 00 10 20 
+//      01 11 21
+//      02 12 22
+//      03 13 23
+// this is the example of column major order . 
+
+// so these are the examples of column and row major order . 
