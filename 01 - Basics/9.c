@@ -1,0 +1,100 @@
+// Branching statements :
+// conditions which is used to find the condition is true or false 
+// so there are four branching statements :
+// 1) if (for single condition)
+// 2) if-else (for particular two condition)
+// 3) if-else-if (for multiple condition)
+// 4) switch (executes one block of code from multiple block of code );
+// this is the simple branching statements used in c programming language. 
+
+#include<stdio.h>
+int main()
+{
+    int a = 5;
+    if(a>0)
+    {
+        printf("this is a positive number:");
+    }
+    printf(" it is also a positive number ");
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number: ");
+    scanf("%d",&a);
+    if(a>85)
+    {
+        printf("it is a good score buddy!");
+    }
+    else
+    {
+        printf("it is a bad score");
+    }
+    return 0;
+}
+// simple if else program to understand using score .
+
+
+#include<stdio.h>
+int main()
+{
+    int cgpa;
+    printf("enter the cgpa: ");
+    scanf("%d", &cgpa);
+    if(cgpa>10)
+    {
+        printf("invalid");
+    }
+    else if (cgpa == 9)
+    {
+        printf("A");
+    }
+    else if (cgpa == 8)
+    {
+        printf("B+");
+    }
+    else if (cgpa == 7)
+    {
+        printf("B");
+    }
+    else
+    {
+        printf("u failed bro!");
+    }
+    return 0;
+}
+// this is the simple program using if-elseif-else condition
+
+#include<stdio.h>
+void main()
+{
+    int cgpa;
+    printf("enter the cgpa:");
+    scanf("%d", &cgpa);
+    switch(cgpa)
+    {
+        case 10:
+        printf("A+");
+        break;
+        
+        case 9:
+        printf("A");
+        break;
+        
+        case 8:
+        printf("B+");
+        break;
+        
+        case 7:
+        printf("B");
+        break;
+        
+        default:
+        printf("failed");
+    }
+    
+}
+// this is the simple program to find the switch case .
