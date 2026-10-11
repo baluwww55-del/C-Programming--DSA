@@ -1,0 +1,30 @@
+// AVL tree insertion :
+
+// We know that the avl tree insertion requires some of the rules to be followed :
+// 1) it should must and follow the AVL tree . 
+// 2) it should satisfy the balancing factor . 
+// 3) after that insertion can be done in AVL tree. 
+// 4) insertion the keys as per binary trees . 
+// 5) identify the imbalance if any using (bottom to  up) approach (start from parent of new node and go to up till u find the root)
+// 6) eliminate the imbalance 
+// 7) balance should be calculated by the height of the tree not by the nodes of the tree 
+// 8) use rotations to balance the avl tree . 
+
+// Balancing factor : Hr - Hl = 0 ,1,-1. these are the rules to be followed to construct perfectly balancing avl tree . 
+
+// eg 3,2,1,4,5,6. 
+// 3 as a root --> perfectly balance 
+// 2 as a child --> balance . 
+// 1 as subchild --> imbalance in this we use the ll rotation at 2 it becomes 1,2,3 now it is balance 
+// insert 4 no imbalance 
+// insert 5 offcourse its imbalance at right subtee so the rr rotation is applied 
+// ((1)2)4(3,5(6)) so this is the treee which is balanced using avl tree 
+
+// rules to be rememberes while doing the avl tree as a balanced tree :
+// 1) rooot must be greater than left subtree and smaller than right subtree . 
+// 2) Balance factor should be calculated using height. 
+
+// these are the methods used to do insertion in balancing factor . 
+
+// these are the operation which is used for to do insertion in balancing factor . 
+// using binary search tree is an best method to find the avl tree . 
