@@ -1,0 +1,30 @@
+// Heap deletion :
+
+// as we know there are the two heaps 
+// 1) Max heap 
+// 2) Min heap 
+// *) in both the heaps deletion can be done by the root element 
+
+// rules to delete the heap :
+// 1) Delete root element and place last node of the complete binary tree at root . 
+// 2) heapify at the root . 
+// run time complexity O(logn)
+
+
+// formula for the the heapify element . 
+// no of heaps with N distinct keys 
+// T(N) + (N-1)(K*T(K))*T(N-K-1)
+//  Formula for the heap element 
+
+
+// HEAP SORT :
+// heap sort is an efficient comparison-based sorting algorithm that organizes an input array using binary heap data structures . 
+
+
+// Ascending order heap :
+// rules :
+// 1) construct min heap using given keys . 
+// 2) delete the element from heap one by one and inset those elements into the list 
+// run time complexity O(nlogn)
+
+// this is basics of heap  data structure 
