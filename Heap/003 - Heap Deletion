@@ -1,4 +1,5 @@
 // Heap deletion :
+// the operation of removing a node from heap data structure while restoring the required heap property known as heap deletion . 
 
 // as we know there are the two heaps 
 // 1) Max heap 
