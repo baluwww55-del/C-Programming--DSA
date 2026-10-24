@@ -1,0 +1,15 @@
+// Insertion in an heap :
+
+// rules for insertion :
+// 1) add new node based on  the complete binary tree .
+// 2) adjust tree to satisfy heap property . 
+
+// run time complexity of heap during insertion O(logn)
+
+// Building a heap heapify 
+// 1) first build complete binary tree . 
+// 2) then starting from last internal node till root heapify for each node . 
+
+// run time complexity for keys O(n)
+
+// this is the basic introduction of the heap insertion and the heap heapify 
