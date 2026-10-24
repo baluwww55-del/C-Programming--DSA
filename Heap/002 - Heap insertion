@@ -1,5 +1,5 @@
 // Insertion in an heap :
-
+// the operation of adding a new element into a heap data structure is known as insertion in heap datastructure ( Heap Insertion ) .
 // rules for insertion :
 // 1) add new node based on  the complete binary tree .
 // 2) adjust tree to satisfy heap property . 
