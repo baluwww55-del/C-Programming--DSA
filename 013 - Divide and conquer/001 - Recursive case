@@ -22,5 +22,6 @@
 // 2) termination condition is must . 
 // 3) while 1 recursive program running we use only one stack but many units . 
 // 4) recursive is nothing but interms of solving bigger problems solving by making them into parts as a smaller problems . 
+// 5) Function calling itself known as recursive . 
 
 // this is known as divide and conquer method basics and the method of recursive using to solve the problems . 
