@@ -1,0 +1,26 @@
+// Divide and conquer 
+// This is a method which we use to solve big problems by dividing into them sub smaller problems and getting solutions of that problems and merging them into one it is known as divide and conquer 
+
+// Merge sort is the best example of divide and conquer (DAC).
+
+
+// merging is the major concept used in divide and conquer method. 
+
+// Basics of divide and conquer :
+// 1) recursion .
+// 2) recurrence relation .
+// 3) solving the recurrence relation . 
+//         *) substitution method . 
+//         *) recursion tree method . 
+//         *) Master's theorem method . 
+
+// 1) Recursion 
+// Recursion is a method which function calls itself directly or indirectly to solve a problem is known as recursion and it corresponding function is known as recursive function . 
+
+// properties of recursion :
+// 1) To execute recursive program we use stack data structure .
+// 2) termination condition is must . 
+// 3) while 1 recursive program running we use only one stack but many units . 
+// 4) recursive is nothing but interms of solving bigger problems solving by making them into parts as a smaller problems . 
+
+// this is known as divide and conquer method basics and the method of recursive using to solve the problems . 
