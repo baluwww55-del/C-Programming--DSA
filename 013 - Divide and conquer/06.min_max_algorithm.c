@@ -1,0 +1,67 @@
+// 1) case of divide and conquer algorithm :
+// 1) Min Max algorithm :
+// algorithm is used to find the minimum and maximum in the array or list by using the divide and conquer algorithm 
+
+// minimum algorithm is without divide and conquer :
+max = a[0];
+min = a[0];
+for(i=1; i<n; i++)
+if (min<a[i])
+{
+    min = a[i];
+}
+else (max>a[i])
+{
+    max = a[i];
+}
+// run time complexity O(n)
+//no of comparisons in best case for minimum and maximum without using divide and conquer is (n-1)
+// this is the simple program used to find the min and maximum at a time  without divide and conquer 
+
+// algorithm using divide and conquer :
+dac(a,i,j)
+{
+    if (i == j)
+    {
+        max = min = a[i];
+        return max,min;
+    }
+    if (i == j-1)
+    {
+        max = a[i];
+        min = a[j];
+    }
+    else
+    {
+        max = a[i];
+        min = a[j];
+        return (max,min)
+    }
+    else
+    {
+        m = i+1/2;
+        max,min = dac(a,i,m)
+        max2,min2 = dac(a,m+1,i)
+    }
+    if (max>max2)
+    {
+        max = max1;
+    }
+    else
+    {
+        max = max2;
+    }
+    if (min<min2)
+    {
+        min = min1;
+    }
+    else 
+    {
+        min = min2;
+    }
+    
+}
+// run time complexity O(n)
+// no of comparisons O(logn)
+// this is the simple program used to find the minimum and maximum algorithm using divide and conquer algorithm .
+// this is the basic introduction and cases of algorithm divide and conquer algorithm . 
