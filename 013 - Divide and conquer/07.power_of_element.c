@@ -1,0 +1,38 @@
+// Power of an element :
+// this is the case 02 in divide and conquer algorithm 
+
+// in this we use algorithm to find the complexity of the algorithms to find the power of an element 
+
+// eg: 3^16 we have to divide it 
+// 3^8 x 3^8
+// 3^4 x 3^4
+// 3^2 x 3^2 
+
+// power can be added when the base terms are multiplied so this is the basic rule we have to remember in our mind when we are going to solve the power of an element using the divide and conquer algorithm . 
+
+// a^0 = 1
+// 15/2 = 7 because the lower terms we accepts when u go for real we get 7.5 but its actually the integer 7 . 
+
+// this is the actual algorithm :
+power(a,n)
+{
+    if( n == 0 )
+    {
+        return 1;
+    }
+    else
+    {
+        mid = n/2;
+    }
+    if( n % 2 == 0 )
+    {
+        return(X x X);
+    }
+    else
+    {
+        return( A x X x X);
+    }
+}
+// run time complexity of this algorithm is O(logn)
+// no of odd multiplies [log2n]
+// this is the important case which is asked in competative exams like gate isro and barc as well .
